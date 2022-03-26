@@ -3,6 +3,10 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.duokewat.towardscloud</groupId>
   <artifactId>OverseasInvestorMonolith</artifactId>
+  <properties>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+</properties>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>OverseasInvestorMonolith</name>
