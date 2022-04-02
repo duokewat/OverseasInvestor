@@ -24,7 +24,7 @@ public class StockService {
 		String responseString = "";
 		try {
 			HttpRequest request = HttpRequest.newBuilder()
-					.uri(new URI("https://yh-finance.p.rapidapi.com/stock/v2/get-summary?symbol=AAPL&region=US"))
+					.uri(new URI("https://yh-finance.p.rapidapi.com/market/v2/get-quotes?region=US&symbols=AAPL"))
 					.header("X-RapidAPI-Host", "yh-finance.p.rapidapi.com")
 					.header("X-RapidAPI-Key", "4259f66e17msh8106bfc804b3a29p1b340cjsnea72eaab8d20").GET().build();
 			HttpResponse<String> response = HttpClient.newBuilder()
